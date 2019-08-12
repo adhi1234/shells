@@ -11,5 +11,5 @@ if [ $# -eq 3 ]; then
             exit 2
         fi
 else
-        echo "Missing arguments!"
+        echo "Invalid arguments"
 fi

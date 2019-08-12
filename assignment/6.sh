@@ -72,7 +72,9 @@ case $opt in
 
 
 10) echo "CPU information";
-    lscpu;;
+    lscpu;
+     read enterKey;;
+
 
 11) echo "MEMORY Information";
     sudo dmidecode --type memory;
